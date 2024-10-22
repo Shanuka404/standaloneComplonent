@@ -1,0 +1,14 @@
+.lens {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    pointer-events: none;
+    display: none;
+}
+
+@media screen and (min-width: 1112px) and (orientation: landscape),
+       screen and (min-width: 1112px) and (orientation: portrait) and (min-aspect-ratio: 4/3) {
+    .lens {
+        display: block;
+    }
+}

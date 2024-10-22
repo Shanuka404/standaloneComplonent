@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background: transparent;
+    color: rgb(186, 184, 184);
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.navbar-left span {
+    margin-right: 20px;
+}
+
+.navbar-right {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 50px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
